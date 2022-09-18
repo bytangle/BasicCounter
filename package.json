@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/bytangle/BasicCounter#readme",
   "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.14",
     "ethers": "^5.7.1"
   }
 }

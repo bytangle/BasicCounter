@@ -55,6 +55,13 @@ contract BasicCounter {
         emit ValueChanged(_values[msg.sender]); // emit event
     }
 
+    function set(uint _value) public {
+        require(_values[msg.sender] == 0); // can only set the value to any number if the value is zero
+        require(_value < type(uint).max && _value > type(uint).min); // guard overflow and underflow conditions
+
+        _values[msg.sender] = _value;
+    }
+
     /// get value
     /// @return the current value
     function get() public view returns (uint) {
