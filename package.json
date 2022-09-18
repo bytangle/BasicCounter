@@ -1,0 +1,26 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "description": "Count numbers. counting is personalised i.e each value is tired to a specific address and only that address can increase, decrease or reset it",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bytangle/BasicCounter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bytangle/BasicCounter/issues"
+  },
+  "homepage": "https://github.com/bytangle/BasicCounter#readme",
+  "dependencies": {
+    "ethers": "^5.7.1"
+  }
+}
