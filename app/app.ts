@@ -79,7 +79,8 @@ class BasicCounter {
 /// Usage
 async function main() {
     const counter = new BasicCounter(
-        "0x60534366D999b234b5280a62D388def4b04EA3f9", // ganache
+        "0xb92B99056387896b42e5513E51B317D072AEfEcb", // goerli testnet
+        //"0x60534366D999b234b5280a62D388def4b04EA3f9", // ganache
         BasicCounterInterface.abi, 
         "http://127.0.0.1:7545");
     
